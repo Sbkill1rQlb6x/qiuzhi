@@ -1,0 +1,293 @@
+2018-07-09 13:45:07,635 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 13:53:51,725 [Thread-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 13:54:06,234 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 13:55:21,817 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 13:58:40,531 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 13:59:41,200 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 13:59:51,061 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:01:13,064 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:01:27,046 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:02:48,528 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:03:10,329 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:05:32,345 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:05:42,385 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:09:33,262 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:09:37,552 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:09:37,953 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1123 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:09:37,954 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:09:38,043 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@751df80a: startup date [Mon Jul 09 14:09:38 CST 2018]; root of context hierarchy
+2018-07-09 14:09:40,034 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:09:40,221 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2181 ms
+2018-07-09 14:09:40,407 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:09:40,411 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:09:40,412 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:09:40,412 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:09:40,412 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:09:40,929 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:09:41,271 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@751df80a: startup date [Mon Jul 09 14:09:38 CST 2018]; root of context hierarchy
+2018-07-09 14:09:41,400 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:09:41,405 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:09:41,406 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:09:41,431 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:09:41,431 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:09:41,759 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-07-09 14:09:41,797 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:09:41,798 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:09:41,804 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:09:41,852 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:09:41,857 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 4.451 seconds (JVM running for 4.982)
+2018-07-09 14:09:58,672 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:09:58,687 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2018-07-09 14:09:58,754 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:12:51,995 [Thread-9] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@751df80a: startup date [Mon Jul 09 14:09:38 CST 2018]; root of context hierarchy
+2018-07-09 14:12:51,997 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:12:51,998 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:12:52,002 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:12:54,796 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:12:55,162 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1131 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:12:55,163 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:12:55,229 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29edbf2a: startup date [Mon Jul 09 14:12:55 CST 2018]; root of context hierarchy
+2018-07-09 14:12:57,196 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:12:57,305 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2079 ms
+2018-07-09 14:12:57,421 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:12:57,429 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:12:57,430 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:12:57,430 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:12:57,431 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:12:58,114 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:12:58,310 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29edbf2a: startup date [Mon Jul 09 14:12:55 CST 2018]; root of context hierarchy
+2018-07-09 14:12:58,395 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:12:58,396 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:12:58,399 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:12:58,400 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:12:58,426 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:12:58,426 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:12:58,693 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-07-09 14:12:58,733 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:12:58,734 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:12:58,750 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:12:58,816 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:12:58,821 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 4.145 seconds (JVM running for 4.717)
+2018-07-09 14:13:25,110 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:13:25,127 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-07-09 14:16:06,232 [Thread-9] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@29edbf2a: startup date [Mon Jul 09 14:12:55 CST 2018]; root of context hierarchy
+2018-07-09 14:16:06,237 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:16:06,238 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:16:07,923 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:16:08,067 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1135 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:16:08,067 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:16:08,125 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c455f13: startup date [Mon Jul 09 14:16:08 CST 2018]; root of context hierarchy
+2018-07-09 14:16:10,113 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:16:10,236 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2114 ms
+2018-07-09 14:16:10,374 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:16:10,384 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:16:10,385 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:16:10,385 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:16:10,386 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:16:10,946 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:16:11,118 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c455f13: startup date [Mon Jul 09 14:16:08 CST 2018]; root of context hierarchy
+2018-07-09 14:16:11,198 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:16:11,199 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:16:11,203 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:16:11,204 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:16:11,229 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:16:11,230 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:16:11,518 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-07-09 14:16:11,573 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:16:11,574 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:16:11,582 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:16:11,642 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:16:11,648 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 3.865 seconds (JVM running for 4.5)
+2018-07-09 14:16:21,090 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:16:21,105 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-07-09 14:17:42,860 [Thread-9] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c455f13: startup date [Mon Jul 09 14:16:08 CST 2018]; root of context hierarchy
+2018-07-09 14:17:42,864 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:17:42,865 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:17:59,396 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:17:59,786 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1145 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:17:59,787 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:17:59,857 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1faaf801: startup date [Mon Jul 09 14:17:59 CST 2018]; root of context hierarchy
+2018-07-09 14:18:01,518 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:18:01,635 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1782 ms
+2018-07-09 14:18:01,821 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:18:01,826 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:18:01,826 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:18:01,827 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:18:01,827 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:18:02,317 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:18:02,498 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1faaf801: startup date [Mon Jul 09 14:17:59 CST 2018]; root of context hierarchy
+2018-07-09 14:18:02,574 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:18:02,574 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:18:02,578 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:18:02,579 [restartedMain] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:18:02,607 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:18:02,607 [restartedMain] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:18:02,906 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-07-09 14:18:02,936 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:18:02,937 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:18:02,942 [restartedMain] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:18:02,991 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:18:02,995 [restartedMain] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 3.714 seconds (JVM running for 5.074)
+2018-07-09 14:19:04,798 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:19:04,980 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1150 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:19:04,981 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:19:05,136 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d11346a: startup date [Mon Jul 09 14:19:05 CST 2018]; root of context hierarchy
+2018-07-09 14:19:06,489 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:19:06,627 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1496 ms
+2018-07-09 14:19:06,786 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:19:06,796 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:19:06,800 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:19:06,801 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:19:06,801 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:19:07,340 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:19:07,528 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d11346a: startup date [Mon Jul 09 14:19:05 CST 2018]; root of context hierarchy
+2018-07-09 14:19:07,628 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:19:07,629 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:19:07,632 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:19:07,633 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:19:07,659 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:19:07,659 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:19:07,844 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:19:07,844 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:19:07,854 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:19:07,944 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-07-09 14:19:07,946 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-07-09 14:19:07,948 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5d11346a: startup date [Mon Jul 09 14:19:05 CST 2018]; root of context hierarchy
+2018-07-09 14:19:07,949 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:19:07,950 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:19:30,338 [Thread-9] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1faaf801: startup date [Mon Jul 09 14:17:59 CST 2018]; root of context hierarchy
+2018-07-09 14:19:30,342 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:19:30,342 [Thread-9] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:20:20,431 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:20:22,066 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1170 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:20:22,070 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:20:22,637 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eceb130: startup date [Mon Jul 09 14:20:22 CST 2018]; root of context hierarchy
+2018-07-09 14:20:27,615 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:20:28,091 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5486 ms
+2018-07-09 14:20:28,379 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:20:28,389 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:20:28,390 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:20:28,390 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:20:28,391 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:20:29,609 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:20:29,945 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eceb130: startup date [Mon Jul 09 14:20:22 CST 2018]; root of context hierarchy
+2018-07-09 14:20:30,045 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:20:30,046 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:20:30,051 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:20:30,052 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:20:30,100 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:20:30,101 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:20:30,450 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:20:30,451 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:20:30,457 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:20:30,530 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:20:30,535 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 11.309 seconds (JVM running for 13.106)
+2018-07-09 14:20:37,570 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:20:37,597 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-07-09 14:22:13,074 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6eceb130: startup date [Mon Jul 09 14:20:22 CST 2018]; root of context hierarchy
+2018-07-09 14:22:13,076 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:22:13,078 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:22:34,212 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:22:34,581 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1181 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:22:34,582 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:22:34,675 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67b467e9: startup date [Mon Jul 09 14:22:34 CST 2018]; root of context hierarchy
+2018-07-09 14:22:36,168 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:22:36,293 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1623 ms
+2018-07-09 14:22:36,452 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:22:36,462 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:22:36,463 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:22:36,463 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:22:36,463 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:22:37,006 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:22:37,178 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67b467e9: startup date [Mon Jul 09 14:22:34 CST 2018]; root of context hierarchy
+2018-07-09 14:22:37,260 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:22:37,261 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:22:37,265 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:22:37,266 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:22:37,288 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:22:37,288 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:22:37,508 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:22:37,519 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:22:37,525 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:22:37,595 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:22:37,608 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 3.558 seconds (JVM running for 4.157)
+2018-07-09 14:22:48,711 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:22:48,726 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-07-09 14:22:48,817 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:25:53,636 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67b467e9: startup date [Mon Jul 09 14:22:34 CST 2018]; root of context hierarchy
+2018-07-09 14:25:53,638 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:25:53,638 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:25:53,644 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:25:55,519 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:25:55,671 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1199 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:25:55,672 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:25:55,742 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67b467e9: startup date [Mon Jul 09 14:25:55 CST 2018]; root of context hierarchy
+2018-07-09 14:25:57,405 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:25:57,533 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1796 ms
+2018-07-09 14:25:57,733 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:25:57,751 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:25:57,752 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:25:57,752 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:25:57,752 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:25:58,241 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:25:58,422 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67b467e9: startup date [Mon Jul 09 14:25:55 CST 2018]; root of context hierarchy
+2018-07-09 14:25:58,508 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:25:58,509 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:25:58,513 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:25:58,514 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:25:58,538 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:25:58,538 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:25:58,766 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:25:58,767 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:25:58,772 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:25:58,852 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:25:58,857 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 3.53 seconds (JVM running for 4.164)
+2018-07-09 14:26:06,762 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:26:06,779 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-07-09 14:26:06,874 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-07-09 14:26:43,847 [Thread-3] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@67b467e9: startup date [Mon Jul 09 14:25:55 CST 2018]; root of context hierarchy
+2018-07-09 14:26:43,849 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-07-09 14:26:43,850 [Thread-3] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-07-09 14:26:43,857 [Thread-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-07-09 14:27:07,285 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.10.Final
+2018-07-09 14:27:07,464 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Starting QiuzhiApplication on guoshuaideMacBook-Pro.local with PID 1207 (/Users/guoshuai/IdeaProjects/qiuzhi/target/classes started by guoshuai in /Users/guoshuai/IdeaProjects/qiuzhi)
+2018-07-09 14:27:07,468 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - No active profile set, falling back to default profiles: default
+2018-07-09 14:27:07,571 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e4aea35: startup date [Mon Jul 09 14:27:07 CST 2018]; root of context hierarchy
+2018-07-09 14:27:08,496 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-07-09 14:27:08,702 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1146 ms
+2018-07-09 14:27:08,908 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/qiuzhi/*]
+2018-07-09 14:27:08,911 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-09 14:27:08,912 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-09 14:27:08,912 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-09 14:27:08,912 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-09 14:27:09,243 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:27:09,394 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e4aea35: startup date [Mon Jul 09 14:27:07 CST 2018]; root of context hierarchy
+2018-07-09 14:27:09,428 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/testMybatis]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.listUser(org.springframework.ui.Model)
+2018-07-09 14:27:09,432 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.gs.qiuzhi.controller.UserController.hello()
+2018-07-09 14:27:09,435 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-09 14:27:09,436 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-09 14:27:09,453 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:27:09,453 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-09 14:27:09,672 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-07-09 14:27:09,672 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'readDataSource' has been autodetected for JMX exposure
+2018-07-09 14:27:09,680 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'readDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=readDataSource,type=DruidDataSource]
+2018-07-09 14:27:09,734 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-07-09 14:27:09,737 [main] INFO  com.gs.qiuzhi.QiuzhiApplication - Started QiuzhiApplication in 2.609 seconds (JVM running for 4.455)
+2018-07-09 14:27:15,669 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-09 14:27:15,681 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-07-09 14:27:29,365 [http-nio-8080-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
