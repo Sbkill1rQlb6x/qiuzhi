@@ -1,40 +1,85 @@
 package com.gs.qiuzhi.pojo;
 
 public class User {
-    private Integer UserId;
-    private String UserName;
-    private String Email;
-    private String password;
+    private int user_id;
+    private String user_phone;
+    private String email;
+    private String user_pass;
+    private int remark;
+    private int user_flag;
+    private String nickName;
+    private String user_face;
+    private  String user_onlyId;
 
-    public Integer getUserId() {
-        return UserId;
+    public int getUser_id() {
+        return user_id;
     }
 
-    public void setUserId(Integer userId) {
-        UserId = userId;
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
     }
 
-    public String getUserName() {
-        return UserName;
+    public String getUser_phone() {
+        return user_phone;
     }
 
-    public void setUserName(String userName) {
-        UserName = userName;
+    public void setUser_phone(String user_phone) {
+        this.user_phone = user_phone;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getUser_pass() {
+        return user_pass;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUser_pass(String user_pass) {
+        this.user_pass = user_pass;
+    }
+
+    public int getRemark() {
+        return remark;
+    }
+
+    public void setRemark(int remark) {
+        this.remark = remark;
+    }
+
+    public int getUser_flag() {
+        return user_flag;
+    }
+
+    public void setUser_flag(int user_flag) {
+        this.user_flag = user_flag;
+    }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
+
+    public String getUser_face() {
+        return user_face;
+    }
+
+    public void setUser_face(String user_face) {
+        this.user_face = user_face;
+    }
+
+    public String getUser_onlyId() {
+        return user_onlyId;
+    }
+
+    public void setUser_onlyId(String user_onlyId) {
+        this.user_onlyId = user_onlyId;
     }
 }

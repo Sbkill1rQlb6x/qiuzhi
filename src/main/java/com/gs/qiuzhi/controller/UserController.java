@@ -38,5 +38,9 @@ public class UserController {
         return "hello";
     }
 
+    @RequestMapping("/index")
+    public String index(){
+        return "home";
+    }
 
 }
