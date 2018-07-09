@@ -30,12 +30,7 @@ public class UserController {
 
     @RequestMapping("/hello")
     public String hello(){
-        return "hello";
-    }
-
-    @RequestMapping("/hello2")
-    public String hello2(){
-        return "hello";
+        return "home";
     }
 
     @RequestMapping("/index")
