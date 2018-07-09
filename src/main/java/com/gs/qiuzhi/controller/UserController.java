@@ -42,7 +42,10 @@ public class UserController {
     public String index(){
         return "home";
     }
-
+    @RequestMapping("/testGit")
+    public String git(){
+        return "home";
+    }
    
 
 }
