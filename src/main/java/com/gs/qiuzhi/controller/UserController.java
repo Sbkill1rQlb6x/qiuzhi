@@ -43,9 +43,6 @@ public class UserController {
         return "home";
     }
 
-    @RequestMapping('testGit')
-    public String git(){
-        return "home";
-    }
+   
 
 }
