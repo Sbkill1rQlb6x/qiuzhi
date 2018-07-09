@@ -33,5 +33,10 @@ public class UserController {
         return "hello";
     }
 
+    @RequestMapping("/hello2")
+    public String hello2(){
+        return "hello";
+    }
+
 
 }
