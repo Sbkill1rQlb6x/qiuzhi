@@ -1,7 +1,6 @@
 package com.gs.qiuzhi.controller;
 
 
-
 import com.gs.qiuzhi.pojo.User;
 import com.gs.qiuzhi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,26 +23,34 @@ public class UserController {
     @RequestMapping("/testMybatis")
     public String listUser(Model m) {
         List<User> users = userService.findAll();
-        m.addAttribute("users",users);
+        m.addAttribute("users", users);
         return "user2";
     }
 
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "home";
     }
 
     @RequestMapping("/index")
-    public String index(){
+    public String index() {
         return "home";
     }
-  
-  @RequestMapping("/testGit")
-    public String git(){
+
+    @RequestMapping("/testGit")
+    public String git() {
         return "home";
     }
-  
-  
-   
+
+
+    @RequestMapping("/loginView.do")
+    public String loginView() {
+        return "login";
+    }
+
+    @RequestMapping("/registerView.do")
+    public String registerView() {
+        return "register";
+    }
 
 }

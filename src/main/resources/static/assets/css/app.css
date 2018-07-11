@@ -36,3 +36,27 @@
 ol.am-control-nav.am-control-thumbs img{
 	height:170px;
 }
+
+a.am-btn-primary:visited, a.am-btn-danger:visited, a.am-btn-warning:visited, a.am-btn-secondary:visited, a.am-btn-success:visited {
+	color: #fff;
+}
+
+.loginBtn {
+	background: transparent;
+	border: none;
+	color: #666;
+}
+
+.am-list-news-default .am-list .am-list-thumb img {
+	width: 40px;
+}
+
+.am-list > li > a {
+	display: contents;
+}
+
+.am-btn-link:hover {
+	color: #333;
+	text-decoration: none;
+}
+
