@@ -6,6 +6,7 @@ import com.gs.qiuzhi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -53,4 +54,38 @@ public class UserController {
         return "register";
     }
 
+    @RequestMapping("personView")
+    public String personView(){
+        return "person";
+    }
+
+    @RequestMapping("/updatePassView.do")
+    public String updatePassView(){
+        return "updatePass";
+    }
+
+    @RequestMapping("/updatePassView2.do")
+    public String updatePassView2(){
+        return "updatePass2";
+    }
+
+    @RequestMapping("/klDetail.do")
+    public String klDetall(){
+        return "klDetail";
+    }
+
+//    @RequestMapping("/klSort.do")
+//    public String klSort(){
+//        return "klSort";
+//    }
+    @RequestMapping("/klSort.do")
+    public String getPage(String page){
+        System.out.println(page);
+        return "klSort";
+    }
+
+    @RequestMapping("/klManagement.do")
+    public String klManagement(){
+        return "klManagement";
+    }
 }

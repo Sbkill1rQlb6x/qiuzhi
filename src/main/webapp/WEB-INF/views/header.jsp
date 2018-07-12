@@ -37,6 +37,7 @@
 <link rel="stylesheet" href="assets/css/amazeui.datatables.min.css">
 <link rel="stylesheet" href="assets/css/app.css">
 <link rel="stylesheet" href="assets/css/public.css">
+<link rel="stylesheet" href="assets/css/common.css">
 
 <title>Insert title here</title>
 </head>
@@ -78,8 +79,8 @@
 							<a class="am-btn am-btn-link am-dropdown-toggle" data-am-dropdown-toggle>${nickName} <span
 									class="am-icon-caret-down"></span></a>
 							<ul class="am-dropdown-content">
-								<li><a href="#">个人中心</a></li>
-								<li><a href="#">修改密码</a></li>
+								<li><a href="personView.do">个人中心</a></li>
+								<li><a href="updatePassView.do">修改密码</a></li>
 								<li><a href="#">退出登录</a></li>
 
 							</ul>
@@ -109,3 +110,5 @@
 	<script src="assets/js/amazeui.min.js"></script>
 	<script src="assets/js/public.js"></script>
 	<script type="assets/js/amazeui.datatables.min.js"></script>
+	<script src="assets/js/tagSelect.js"></script>
+	<script src="assets/js/amazeui.page.js"></script>
