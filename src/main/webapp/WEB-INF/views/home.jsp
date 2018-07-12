@@ -47,7 +47,7 @@
                          src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/1000/h/1000/q/80"
                          width="40" height="40"/>
                     <div style="display: inline-table;">
-                        <a href="#" class="klList_a">每个人都有一个死角， 自己走不出来，别人也闯不进去。</a>
+                        <a href="klDetail.do" class="klList_a">每个人都有一个死角， 自己走不出来，别人也闯不进去。</a>
                         <p style="font-size: 9pt;margin: 8px;">作者：xxxx&nbsp;&nbsp;|&nbsp;&nbsp;时间：xxxx</p>
                     </div>
                 </li>

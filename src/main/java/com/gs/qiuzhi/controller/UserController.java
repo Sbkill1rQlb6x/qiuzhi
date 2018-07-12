@@ -74,20 +74,18 @@ public class UserController {
         return "klDetail";
     }
 
-//    @RequestMapping("/klSort.do")
-//    public String klSort(){
-//        return "klSort";
-//    }
     @RequestMapping("/klSort.do")
     public String getPage(String page){
-        System.out.println(page);
         return "klSort";
     }
 
     @RequestMapping("/klManagement.do")
     public String klManagement(){
         return "klManagement";
+    }
 
-        ttyyy
+    @RequestMapping("/adminIndex.do")
+    public String adminIndex(){
+        return "admin/adminIndex";
     }
 }

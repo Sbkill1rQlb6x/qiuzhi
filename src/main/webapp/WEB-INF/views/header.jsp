@@ -37,8 +37,7 @@
 <link rel="stylesheet" href="assets/css/amazeui.datatables.min.css">
 <link rel="stylesheet" href="assets/css/app.css">
 <link rel="stylesheet" href="assets/css/public.css">
-<link rel="stylesheet" href="assets/css/common.css">
-
+	<link rel="stylesheet" href="assets/css/common.css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -57,8 +56,8 @@
 		<div class="am-collapse am-topbar-collapse" id="collapse-head">
 			<ul class="am-nav am-nav-pills am-topbar-nav">
 				<li><a href="index.do">首页</a></li>
-				<li><a href="${pageContext.request.contextPath}/info.do">知识点分类</a></li>
-				<li><a href="${pageContext.request.contextPath}/diary.do">知识点管理</a></li>
+				<li><a href="klSort.do">知识点分类</a></li>
+				<li><a href="klManagement.do">知识点管理</a></li>
 			</ul>
 
 			<c:set var="nickName" value="张三"></c:set>
@@ -80,6 +79,7 @@
 									class="am-icon-caret-down"></span></a>
 							<ul class="am-dropdown-content">
 								<li><a href="personView.do">个人中心</a></li>
+								<li><a href="personView.do">新建知识点</a></li>
 								<li><a href="updatePassView.do">修改密码</a></li>
 								<li><a href="#">退出登录</a></li>
 
@@ -110,5 +110,3 @@
 	<script src="assets/js/amazeui.min.js"></script>
 	<script src="assets/js/public.js"></script>
 	<script type="assets/js/amazeui.datatables.min.js"></script>
-	<script src="assets/js/tagSelect.js"></script>
-	<script src="assets/js/amazeui.page.js"></script>
