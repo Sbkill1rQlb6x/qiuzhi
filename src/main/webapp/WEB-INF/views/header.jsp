@@ -38,7 +38,7 @@
 <link rel="stylesheet" href="assets/css/app.css">
 <link rel="stylesheet" href="assets/css/public.css">
 	<link rel="stylesheet" href="assets/css/common.css">
-<title>Insert title here</title>
+<title>求知</title>
 </head>
 <body>
 	<header class="am-topbar am-topbar-fixed-top wos-header">

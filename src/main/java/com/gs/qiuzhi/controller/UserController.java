@@ -33,7 +33,7 @@ public class UserController {
         return "home";
     }
 
-    @RequestMapping("/index")
+    @RequestMapping("/index.do")
     public String index() {
         return "home";
     }
@@ -87,5 +87,15 @@ public class UserController {
     @RequestMapping("/adminIndex.do")
     public String adminIndex(){
         return "admin/adminIndex";
+    }
+
+    @RequestMapping("userManagement.do")
+    public String userManagement(){
+        return "admin/userManagement";
+    }
+
+    @RequestMapping("adManagement.do")
+    public String adManagement(){
+        return "admin/adManagement";
     }
 }
