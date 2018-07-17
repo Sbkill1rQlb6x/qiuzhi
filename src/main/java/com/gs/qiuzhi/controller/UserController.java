@@ -98,4 +98,20 @@ public class UserController {
     public String adManagement(){
         return "admin/adManagement";
     }
+
+    @RequestMapping("kwManagement.do")
+    public String kwManagement(){
+        return "admin/kwManagement";
+    }
+
+    @RequestMapping("addKW.do")
+    public String addKW(){
+        return "admin/addKW";
+    }
+
+    @RequestMapping("addKL.do")
+    public String addKL(){
+        return "addKL";
+    }
+
 }

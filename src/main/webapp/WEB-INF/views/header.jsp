@@ -38,6 +38,7 @@
 <link rel="stylesheet" href="assets/css/app.css">
 <link rel="stylesheet" href="assets/css/public.css">
 	<link rel="stylesheet" href="assets/css/common.css">
+	<link rel="stylesheet" href="assets/themes/default/css/umeditor.css">
 <title>求知</title>
 </head>
 <body>
@@ -79,7 +80,7 @@
 									class="am-icon-caret-down"></span></a>
 							<ul class="am-dropdown-content">
 								<li><a href="personView.do">个人中心</a></li>
-								<li><a href="personView.do">新建知识点</a></li>
+								<li><a href="addKL.do">新建知识点</a></li>
 								<li><a href="updatePassView.do">修改密码</a></li>
 								<li><a href="#">退出登录</a></li>
 
@@ -110,3 +111,6 @@
 	<script src="assets/js/amazeui.min.js"></script>
 	<script src="assets/js/public.js"></script>
 	<script type="assets/js/amazeui.datatables.min.js"></script>
+	<script  src="assets/js/umeditor.config.js"></script>
+	<script  src="assets/js/umeditor.min.js"></script>
+	<script type="text/javascript" src="assets/lang/zh-cn/zh-cn.js"></script>
