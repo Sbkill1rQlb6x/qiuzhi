@@ -5,8 +5,8 @@
 
     <div class="am-g am-g-fixed login">
 	<div class="am-u-md-8 am-u-md-offset-2">
-		<form action="${pageContext.request.contextPath}/requestUpdate.do"
-			class="am-form" id="doc-vld-msg">
+		<form action="checkOriginalPass.do"
+			class="am-form" id="doc-vld-msg" method="post">
 			<fieldset>
 				<legend>修改密码</legend>
 				<c:if test="${not empty loginErr }">

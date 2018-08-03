@@ -1,5 +1,6 @@
+<%@ page import="com.gs.qiuzhi.pojo.User" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+		 pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
@@ -61,7 +62,8 @@
 				<li><a href="klManagement.do">知识点管理</a></li>
 			</ul>
 
-			<c:set var="nickName" value="张三"></c:set>
+
+			<c:set var="nickName" value="${user.nickName}"></c:set>
 			<%--导航右侧--%>
 			<div class="am-topbar-right">
 				<c:choose>
@@ -74,15 +76,16 @@
 					<c:otherwise>
 						<div class="am-dropdown" data-am-dropdown style="line-height: 50px;">
 							<img class="am-circle"
-								 src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/1000/h/1000/q/80"
+								 src="${user.user_face}"
 								 width="33" height="33"/>
 							<a class="am-btn am-btn-link am-dropdown-toggle" data-am-dropdown-toggle>${nickName} <span
 									class="am-icon-caret-down"></span></a>
 							<ul class="am-dropdown-content">
 								<li><a href="personView.do">个人中心</a></li>
 								<li><a href="addKL.do">新建知识点</a></li>
-								<li><a href="updatePassView.do">修改密码</a></li>
-								<li><a href="#">退出登录</a></li>
+								<li><a href="myCollections.do">我的收藏</a></li>
+								<li><a href="checkPass.do">修改密码</a></li>
+								<li><a href="outUserLogin.do">退出登录</a></li>
 
 							</ul>
 						</div>
@@ -101,10 +104,10 @@
 
 
 	<!--[if (gte IE 9)|!(IE)]><!-->
-	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<!--<![endif]-->
 	<!--[if lte IE 8 ]>
-<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<!--<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>-->
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
 <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->

@@ -41,14 +41,14 @@
 
         <%--知识点列表--%>
         <ul class="am-list am-list-striped">
-            <c:forEach begin="1" end="14">
+            <c:forEach items="${hotkls}" var="h">
                 <li>
-                    <img class="am-radius" style="margin: 10px;margin-top: 15px;" alt="140*140"
-                         src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/1000/h/1000/q/80"
+                    <img class="am-radius" style="margin: 10px;margin-top: 15px;" alt="作者头像"
+                         src="${h.user_face}"
                          width="40" height="40"/>
                     <div style="display: inline-table;">
-                        <a href="klDetail.do" class="klList_a">每个人都有一个死角， 自己走不出来，别人也闯不进去。</a>
-                        <p style="font-size: 9pt;margin: 8px;">作者：xxxx&nbsp;&nbsp;|&nbsp;&nbsp;时间：xxxx</p>
+                        <a href="kl.do?kl_id=${h.kl_id}" class="klList_a">${h.kl_title}</a>
+                        <p style="font-size: 9pt;margin: 8px;">作者：${h.kl_author}&nbsp;&nbsp;|&nbsp;&nbsp;时间：<fmt:formatDate value='${h.kl_date}' pattern='yyyy-MM-dd HH:ss:mm'/></p>
                     </div>
                 </li>
             </c:forEach>
@@ -66,14 +66,14 @@
              class="am-list-news am-list-news-default right-bg"
              data-am-scrollspy="{animation:'fade'}">
             <ul class="am-list am-list-striped">
-                <c:forEach begin="1" end="4">
+                <c:forEach items="${hotUsers}" var="hu">
                     <li>
                         <img class="am-radius" style="margin: 10px;margin-top: 15px;" alt="140*140"
-                             src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/1000/h/1000/q/80"
+                             src="${hu.user_face}"
                              width="40" height="40"/>
                         <div style="display: inline-table;">
-                            <a href="#" class="klList_a">XX张三</a>
-                            <p style="font-size: 9pt;margin: 1px;">分享知识点数：1212</p>
+                            <a href="#" class="klList_a">${hu.nickName}</a>
+                            <p style="font-size: 9pt;margin: 1px;">分享知识点数：${hu.user_share_count}</p>
 
                         </div>
                     </li>

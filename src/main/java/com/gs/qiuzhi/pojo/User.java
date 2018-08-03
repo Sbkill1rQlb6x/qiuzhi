@@ -10,6 +10,24 @@ public class User {
     private String nickName;
     private String user_face;
     private  String user_onlyId;
+    private  int user_share_count;
+    private int user_collect_count;
+
+    public int getUser_share_count() {
+        return user_share_count;
+    }
+
+    public void setUser_share_count(int user_share_count) {
+        this.user_share_count = user_share_count;
+    }
+
+    public int getUser_collect_count() {
+        return user_collect_count;
+    }
+
+    public void setUser_collect_count(int user_collect_count) {
+        this.user_collect_count = user_collect_count;
+    }
 
     public int getUser_id() {
         return user_id;

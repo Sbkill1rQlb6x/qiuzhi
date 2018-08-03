@@ -6,4 +6,38 @@
     <select id="findAll" resultType="com.gs.qiuzhi.pojo.User">
         select * from user
     </select>
+    <select id="userLogin" parameterType="String" resultType="com.gs.qiuzhi.pojo.User">
+        select * from user where user_pass = #{param2} and user_remark=0 and user_flag=0 and (user_phone = #{param1} or email = #{param1})
+    </select>
+
+    <insert id="userRegister" parameterType="com.gs.qiuzhi.pojo.User">
+        insert into user(user_phone,email,user_pass,nickName,user_onlyId) values (#{user_phone},#{email},#{user_pass},#{nickName},#{user_onlyId})
+    </insert>
+
+    <select id="checkRegister" parameterType="String" resultType="String">
+        select user_phone from user where user_phone=#{user_phone}
+    </select>
+
+    <update id="updateUserFace" parameterType="String">
+        update user set user_face = #{param1} where user_onlyId = #{param2}
+    </update>
+
+    <update id="updateUserNickName" parameterType="String">
+        update user set  nickName = #{param1} where user_onlyId = #{param2}
+    </update>
+
+    <select id="checkOriginalPass" parameterType="String" resultType="com.gs.qiuzhi.pojo.User">
+          select * from user where user_pass = #{param1} and user_onlyId = #{param2}
+    </select>
+    
+    <update id="updatePass" parameterType="String">
+        update user set user_pass = #{param1} where user_onlyId=#{param2}
+    </update>
+
+    <select id="findHotUser" resultType="com.gs.qiuzhi.pojo.User">
+        select * from user where user_share_count > 200 and user_flag = 0 order by user_share_count desc LIMIT 5;
+    </select>
+
+
+
 </mapper>
