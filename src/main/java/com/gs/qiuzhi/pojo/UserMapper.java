@@ -19,5 +19,6 @@ public interface UserMapper {
     public User checkOriginalPass(String originalPass,String userOnlyId);
     public int updatePass(String newPass,String userOnlyId);
     public List<User> findHotUser();
+    public User findUserById(String user_only_id);
 
 }

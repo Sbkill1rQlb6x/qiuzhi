@@ -38,8 +38,8 @@ public class UserService {
         return userMapper.updateUserFace(path,userOnlyId);
     }
 
-    public int updateUserNickName(String nickName,String userOnlyId){
-        return userMapper.updateUserNickName(nickName,userOnlyId);
+    public boolean updateUserNickName(String nickName,String userOnlyId){
+        return userMapper.updateUserNickName(nickName,userOnlyId)>0;
     }
 
     public boolean checkOriginalPass(String originalPass,String userOnlyId){
@@ -51,12 +51,16 @@ public class UserService {
         }
     }
 
-    public int updatePass(String newPass,String userOnlyId){
-        return userMapper.updatePass(newPass,userOnlyId);
+    public boolean updatePass(String newPass,String userOnlyId){
+        return userMapper.updatePass(newPass,userOnlyId)>0;
     }
 
     public List<User> findHotUser()
     {
         return userMapper.findHotUser();
+    }
+
+    public User wxFindUserById(String user_only_id){
+        return userMapper.findUserById(user_only_id);
     }
 }

@@ -38,6 +38,9 @@
         select * from user where user_share_count > 200 and user_flag = 0 order by user_share_count desc LIMIT 5;
     </select>
 
+    <select id="findUserById" parameterType="String" resultType="com.gs.qiuzhi.pojo.User">
+      select * from user where user_onlyId = #{param1}
+    </select>
 
 
 </mapper>

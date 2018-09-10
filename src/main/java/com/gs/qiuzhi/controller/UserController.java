@@ -6,6 +6,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.aliyuncs.exceptions.ClientException;
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.gs.qiuzhi.pojo.User;
+import com.gs.qiuzhi.service.KlService;
 import com.gs.qiuzhi.service.UserService;
 import com.gs.qiuzhi.util.JsonResult;
 import com.gs.qiuzhi.util.SmsCode;
@@ -44,6 +45,9 @@ public class UserController {
     @Autowired
     DefaultKaptcha defaultKaptcha;
 
+    @Autowired
+    private KlService klService;
+
     @RequestMapping("/testMybatis")
     public String listUser(Model m) {
         List<User> users = userService.findAll();
@@ -61,11 +65,6 @@ public class UserController {
         return "home";
     }
 
-
-    @RequestMapping("/loginView.do")
-    public String loginView() {
-        return "login";
-    }
 
     @RequestMapping("/registerView.do")
     public String registerView() {
@@ -87,30 +86,17 @@ public class UserController {
         return "updatePass2";
     }
 
-    @RequestMapping("/adminIndex.do")
-    public String adminIndex(){
-        return "admin/adminIndex";
+    @RequestMapping("/loginView.do")
+    public String loginView() {
+        return "login";
     }
 
-    @RequestMapping("/userManagement.do")
-    public String userManagement(){
-        return "admin/userManagement";
+    @RequestMapping("plaseLogin.do")
+    public String plaseLogin(){
+        return "noLogin";
     }
 
-    @RequestMapping("/adManagement.do")
-    public String adManagement(){
-        return "admin/adManagement";
-    }
 
-    @RequestMapping("/kwManagement.do")
-    public String kwManagement(){
-        return "admin/kwManagement";
-    }
-
-    @RequestMapping("/addKW.do")
-    public String addKW(){
-        return "admin/addKW";
-    }
 
 
     /**
@@ -233,7 +219,6 @@ public class UserController {
             return resJson;
         }
 
-
     }
 
     /**
@@ -288,16 +273,12 @@ public class UserController {
     @RequestMapping("/userUploadedFace.do")
     public String userUploadedFace(@RequestParam("userFace") MultipartFile file, RedirectAttributes red,HttpSession session,HttpServletRequest request){
 
-        System.out.println(file.getOriginalFilename());
         String fileName = file.getOriginalFilename();
         String fileSuffix = fileName.substring(fileName.lastIndexOf(".")+1);//获取后缀名称
-        System.out.println(fileSuffix);
         if (fileSuffix.equals("png")|| fileSuffix.equals("jpeg") || fileSuffix.equals("jpg"))
         {
-            System.out.println("22222222222");
             User user = (User) session.getAttribute("user");
             String path = request.getServletContext().getRealPath("user_face/");
-            //String path = "classpath:/webapp/user_face/";
             String newFileName = "user_face_"+user.getUser_onlyId()+"."+fileSuffix;
             File dest = new File(path+newFileName);
             if (!dest.getParentFile().exists()) {
@@ -307,6 +288,7 @@ public class UserController {
                 file.transferTo(dest);
                 red.addFlashAttribute("faceErr","上传成功！");
                 userService.updateUserFace("user_face/"+newFileName,user.getUser_onlyId());//更新数据库，传递相对路径
+                klService.updateCollUserFace("user_face/"+newFileName,user.getUser_onlyId());
                 return "redirect:personView.do";
             } catch (IllegalStateException e) {
                 e.printStackTrace();
@@ -317,7 +299,6 @@ public class UserController {
         }else {
 
             red.addFlashAttribute("faceErr","图片格式错误！");
-            System.out.println("111111111");
             return "redirect:personView.do";
 
         }
@@ -340,6 +321,12 @@ public class UserController {
     }
 
 
+    /**
+     * 检查原始密码
+     * @param originalPass
+     * @param session
+     * @return
+     */
     @RequestMapping("checkOriginalPass.do")
     public String checkOriginalPass(String originalPass,HttpSession session){
         User user =(User)session.getAttribute("user");

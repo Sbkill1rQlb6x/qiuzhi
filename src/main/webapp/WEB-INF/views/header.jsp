@@ -8,6 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!-- Set render engine for 360 browser -->
 <meta name="renderer" content="webkit">
@@ -77,7 +78,15 @@
 						<div class="am-dropdown" data-am-dropdown style="line-height: 50px;">
 							<img class="am-circle"
 								 src="${user.user_face}"
-								 width="33" height="33"/>
+								 width="33" height="33" id="face_img"/>
+								<%--防止图片缓存--%>
+							<script>
+                                now = new Date();
+                                //重新加载图片
+                                $('#face_img').src=$('#face_img').src+"?d="+now.getTime();
+
+							</script>
+
 							<a class="am-btn am-btn-link am-dropdown-toggle" data-am-dropdown-toggle>${nickName} <span
 									class="am-icon-caret-down"></span></a>
 							<ul class="am-dropdown-content">
@@ -94,6 +103,8 @@
 			</div>
 		</div>
 	</div>
+
+
 	</header>
 	<!-- 侧边栏内容 -->
 
@@ -117,3 +128,5 @@
 	<script  src="assets/js/umeditor.config.js"></script>
 	<script  src="assets/js/umeditor.min.js"></script>
 	<script type="text/javascript" src="assets/lang/zh-cn/zh-cn.js"></script>
+
+

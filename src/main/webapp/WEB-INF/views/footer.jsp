@@ -8,7 +8,7 @@
 			<li><a href="#">加入我们</a></li>
 			<li><a href="#">合作伙伴</a></li>
 			<li><a href="#">广告及服务</a></li>
-			<li><a href="">管理员登录</a></li>
+			<li><a href="adminLoginView.do">管理员登录</a></li>
 		</ul>
 		<p>
 			Black出品<br>© 2016 AllMobilize, Inc. Licensed under MIT license.
